@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0fe;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  header {
+    background-color: #e36be3;
+    padding: 20px;
+    text-align: center;
+    color: rgb(234, 92, 225);
+  }
+
+  #logo {
+    position:relative;
+    top:30px;
+    left:30px;
+    width:180px;
+    height:90px;
+  }
+
+  nav {
+    background-color: #e36be3;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .gallery-section {
+    margin-bottom: 40px;
+  }
+
+  .gallery-section h3 {
+    color: #b200a1;
+    border-bottom: 2px solid #e36be3;
+    padding-bottom: 5px;
+  }
+
+  .gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .gallery-images img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  footer {
+    background-color: #e36be3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <img id="logo" src="rainbow.png" alt="로고">
+  </div>
+  <nav>
+    <a href="index.html">홈</a>
+    <a href="places.html">여행지</a>
+    <a href="tips.html">여행 팁 및 경비 안내</a>
+    <a href="gallery.html">갤러리</a>
+    <a href="contact.html">연락처</a>
+  </nav>
+  <main>
+    <h2>사진 갤러리</h2>
+    <p>몽골의 아름다운 풍경과 즐길 거리들을 사진으로 감상해보세요:</p>
+
+    <div class="gallery-section">
+      <h3>🏞️ 여행지</h3>
+      <div class="gallery-images">
+        <img src="volcano.jpg">
+        <img src="desert.jpg" alt="고비 사막">
+        <img src="ger.jpg">
+        <img src="terelj.jpg" alt="테를지 국립공원">
+      </div>
+    </div>
+
+    <div class="gallery-section">
+      <h3>🍽️ 음식</h3>
+      <div class="gallery-images">
+        <img src="buuz.jpg" alt="만두두">
+        <img src="huushuur.jpg" alt="호쇼르">
+        <img src="salad.jpg" alt="감자 샐러드드">
+        <img src="tsuivan.jpg" alt="뽂음국수수">
+        <img src="meat.jpg" alt="삶은 양고기">
+      </div>
+    </div>
+
+    <div class="gallery-section">
+      <h3>🎉 놀이 및 체험</h3>
+      <div class="gallery-images">
+        <img src="horse.jpg" alt="말 타기 체험">
+        <img src="camel.jpg" alt="낙타 타기 체험">
+        <img src="gobi.jpg" alt="모래 썰매">
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 RAINBOW TRAVEL
+  </footer>
+</body>
+</html>
